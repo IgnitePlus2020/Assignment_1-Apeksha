@@ -7,7 +7,7 @@ public class pyramid
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the height of the pyramid");
         int n=in.nextInt();
-        for(int i=1;i<=n;i++)
+        for(int i=1;i<=n;i++)   //height
         {
             for(int j=0;j<i;j++)
             {
