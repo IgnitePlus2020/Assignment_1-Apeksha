@@ -9,7 +9,7 @@ public class simpleinterest
         double p=in.nextDouble();
         double r=in.nextDouble();
         double t=in.nextDouble();
-        double si=(p*t*r)/100;
+        double si=(p*t*r)/100;  //formulae
         System.out.println("The simple interest for the given amount is = Rs:"+si);
     }
 }
