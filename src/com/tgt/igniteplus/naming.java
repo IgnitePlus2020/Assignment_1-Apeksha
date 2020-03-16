@@ -9,9 +9,9 @@ public class naming
         int n=in.nextInt();
         String s=Integer.toString(n);   //converting to string
         int a[]=new int[s.length()];
-        for(int i=0;i<s.length();i++) {
+        for(int i=0;i<s.length();i++)
+        {
             a[i] = Character.getNumericValue(s.charAt(i)); //converting to array of numbers
-
             switch(a[i])
             {
                 case 0:System.out.print("Zero\t");
