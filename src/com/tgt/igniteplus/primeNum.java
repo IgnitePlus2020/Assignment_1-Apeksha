@@ -8,12 +8,12 @@ public class primeNum
         System.out.println("Enter the range of number...please enter the lower range first");
         int n=in.nextInt();
         int m=in.nextInt();
-        for (int i = n; i <=m; i++)
+        for (int i=n;i<=m;i++)
         {
             c=1;
-            for (int j = 2; j <i; j++)
+            for (int j=2;j<i;j++)
             {
-                if (i % j == 0)
+                if (i%j==0)
                 {
                     c=0;
                     break;

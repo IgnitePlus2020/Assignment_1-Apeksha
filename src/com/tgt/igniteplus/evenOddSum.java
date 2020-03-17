@@ -3,9 +3,9 @@ import java.util.*;
 public class evenOddSum
 {
     public static void main(String[] args)
-    {   int esum=0,osum=0;
+    {   int esum=0,osum=0;      //variables to store sum of even and odd numbers
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter any number of your choice:");
+        System.out.println("Enter the number of terms:");
         int n=sc.nextInt();
         for(int i=0;i<=n;i++)
         {
